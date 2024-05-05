@@ -16,7 +16,7 @@
 	<div
 		style:transform={`translate3d(0,${pScroll * 0.005}px, 0)`}
 		class=" relative bg-fixed bg-cover w-full h-[80vh] md:h-full md:aspect-video z-[-1]"
-		style="background-image:url('https://ik.imagekit.io/wkftmp47jiv/florida_foundation_experts/assets/wall_crack_window_wH1hLzgq-.jpg');transform:translate3d(0px,0px,0px);"
+		style="background-image:url('https://ik.imagekit.io/wkftmp47jiv/florida_foundation_experts/assets/destin-beach-houses_raXgTrMc3H.jpg');transform:translate3d(0px,0px,0px);"
 	/>
 	<div
 		class="absolute inset-0 w-full z-10 flex flex-col items-center justify-center gap-y-4 bg-black/20"

@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Hero from '$lib/components/Hero.svelte';
 	import ContactForm from '$lib/components/ContactForm.svelte';
+	// import InfoCard from '$lib/components/InfoCard.svelte';
 </script>
 
 <Hero title="Florida Foundation Repair Panama City Florida" />
@@ -34,73 +35,166 @@
 		paperwork/agreements, and the permitting process.
 	</p>
 </section>
-<section class="p-8 mt-10">
-	<h2 class="text-center text-2xl lg:text-4xl font-bold font-branding-sans">
-		Foundation Problems in Panama City Beach, Destin and 30a Areas
-	</h2>
-	<p class="w-3/4 mx-auto mt-8 text-lg lg:text-xl">
-		The sandy soil in Northwest Florida can make homes susceptible to foundation problems. These
-		problems can be caused by a number of factors, including:
-	</p>
-	<div class="w-3/4 mx-auto mt-8 text-lg lg:text-xl">
-		<ul>
-			<li>
-				<strong>Weather:</strong> Heavy rains and flooding can put a lot of stress on foundations.
-			</li>
-			<li class="pt-2">
-				<strong>Age:</strong> Older homes are more likely to have foundation problems.
-			</li>
-			<li class="pt-2">
-				<strong>Poor construction:</strong> Homes that were not built properly are more likely to have
-				foundation problems.
-			</li>
-			<li class="pt-2">
-				<strong>Poor compaction:</strong> Homes that were built on poorly compacted soil can settle over
-				time, causing foundation issues.
-			</li>
-			<li class="pt-2">
-				<strong>Organic material underground:</strong> Many homes and neighborhoods were built on land
-				that was cleared. After clearing the land, the contractor may have buried organic material such
-				as trees. Over time, the organic material breaks down underground, causing the soil around it
-				to settle - potentially taking your home’s foundation with it.
-			</li>
-		</ul>
-	</div>
-	<h3 class="w-3/4 mt-8 text-xl lg:text-3xl font-bold font-branding-sans">
-		Signs of Foundation Problems:
-	</h3>
-	<p class="w-3/4 mx-auto mt-8 text-lg lg:text-xl">
-		If you're noticing any of the following signs, it's possible that your foundation is damaged:
-	</p>
+<section class="px-8 mt-10 bg-slate-50">
+	<div class="py-14">
+		<h2 class="text-center text-2xl lg:text-4xl font-bold font-branding-sans">
+			Foundation Problems in Panama City Beach, Destin and 30a Areas
+		</h2>
+		<p class="w-2/4 mx-auto py-12 text-lg lg:text-xl">
+			The sandy soil in Northwest Florida can make homes susceptible to foundation problems. These
+			problems can be caused by a number of factors, including:
+		</p>
+		<div class="w-3/4 mx-auto text-lg lg:text-xl">
+			<!-- <InfoCard>
+			<svelte:fragment slot="image">
+				<img
+					src="https://picsum.photos/300/200"
+					alt="foundation damage"
+					class="w-full rounded-t-lg"
+				/>
+			</svelte:fragment>
+			<svelte:fragment slot="title">
+				<h3 class="text-xl font-bold">Weather</h3>
+			</svelte:fragment>
+			<p slot="content">Heavy rains and flooding can put a lot of stress on foundations.</p>
+		</InfoCard> -->
 
-	<div class="w-3/4 mx-auto mt-8 text-lg lg:text-xl">
-		<ul>
-			<li>
-				<strong>Cracks in walls:</strong> Cracks in walls can be a sign of foundation movement.
-			</li>
-			<li class="pt-2">
-				<strong>Bowed walls:</strong> Bowed walls can be a sign of foundation settlement.
-			</li>
-			<li>
-				<strong>Water damage:</strong> Water damage in the basement or crawl space can be a sign of foundation
-				cracks or leaks.
-			</li>
-			<li class="pt-2">
-				<strong>Cracks or settling</strong> in your concrete driveway, patio, walkway, or pool deck.
-			</li>
-			<li class="pt-2"><strong>Unlevel</strong>, sloping, or bouncy floors.</li>
-			<li class="pt-2"><strong>High levels of humidity</strong> in your home on a crawl space.</li>
-			<li class="pt-2"><strong>Musty smell</strong> in your home on a crawl space.</li>
-			<li class="pt-2"><strong>Visible standing water</strong> in your crawl space.</li>
-			<li class="pt-2">
-				<strong>Visible mold, mildew, fungus</strong> or organic growth in your crawl space.
-			</li>
-		</ul>
+			<div class="md:grid md:grid-cols-3 gap-14">
+				<div class="info-card shadow-lg max-w-96 rounded-lg bg-white">
+					<img
+						src="https://picsum.photos/300/200"
+						alt="foundation damage"
+						class="w-full rounded-t-lg object-cover"
+					/>
+					<div class="p-6">
+						<h3 class="text-2xl font-bold uppercase text-center">Weather</h3>
+						<p class="mt-3">Heavy rains and flooding can put a lot of stress on foundations.</p>
+					</div>
+				</div>
+				<div class="info-card shadow-lg max-w-96 rounded-lg bg-white">
+					<img
+						src="https://picsum.photos/300/200"
+						alt="foundation damage"
+						class="w-full rounded-t-lg"
+					/>
+					<div class="p-6">
+						<h3 class="text-2xl font-bold uppercase text-center">Age</h3>
+						<p class="mt-3">Older homes are more likely to have foundation problems.</p>
+					</div>
+				</div>
+				<div class="info-card shadow-lg max-w-96 rounded-lg bg-white">
+					<img
+						src="https://picsum.photos/300/200"
+						alt="foundation damage"
+						class="w-full rounded-t-lg"
+					/>
+					<div class="p-6">
+						<h3 class="text-2xl font-bold uppercase text-center">Poor Construction</h3>
+						<p class="mt-3">
+							Homes that were not built properly are more likely to have foundation problems.
+						</p>
+					</div>
+				</div>
+				<div class="info-card shadow-lg max-w-96 rounded-lg bg-white">
+					<img
+						src="https://picsum.photos/300/200"
+						alt="foundation damage"
+						class="w-full rounded-t-lg"
+					/>
+					<div class="p-6">
+						<h3 class="text-2xl font-bold uppercase text-center">Poor Compaction</h3>
+						<p class="mt-3">
+							Homes that were built on poorly compacted soil can settle over time, causing
+							foundation issues.
+						</p>
+					</div>
+				</div>
+				<div class="info-card shadow-lg max-w-96 rounded-lg bg-white">
+					<img
+						src="https://picsum.photos/300/200"
+						alt="foundation damage"
+						class="w-full rounded-t-lg"
+					/>
+					<div class="p-6">
+						<h3 class="text-2xl font-bold uppercase text-center">Organic Material Underground</h3>
+						<p class="mt-3">
+							Many homes and neighborhoods were built on land that was cleared. After clearing the
+							land, the contractor may have buried organic material such as trees. Over time, the
+							organic material breaks down underground, causing the soil around it to settle -
+							potentially taking your home’s foundation with it.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
-	<p class="w-3/4 mx-auto mt-8 text-lg lg:text-xl">
-		Taking care of foundation problems early is key. The longer you wait, the worse the problem is
-		likely to get, which will make repairing the foundation much more expensive
-	</p>
+</section>
+<section class="bg-gradient-to-br from-gray-900 to-gray-900 bg-cover w-full relative">
+	<img
+		class="w-full h-full object-cover absolute mix-blend-overlay"
+		src="https://ik.imagekit.io/wkftmp47jiv/florida_foundation_experts/assets/pool-house_kYghhDhTqW.jpg"
+		alt=""
+	/>
+	<div class="relative mx-auto px-6 lg:px-8 lg:max-w-7xl py-14">
+		<div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl text-white">
+			<h2 class="text-2xl lg:text-4xl font-bold font-branding-sans">
+				Signs of Foundation Problems
+			</h2>
+			<p class="mx-auto mt-4 text-lg lg:text-xl">
+				If you're noticing any of the following signs, it's possible that your foundation is
+				damaged:
+			</p>
+		</div>
+
+		<dl
+			class="max-w-7xl mt-16 text-white grid grid-cols-1 gap-x-8 gap-y-10 sm:mt-20 sm:grid-cols2 sm:gap-y-16 lg:mx-0 lg:max-w-noe lg:grid-cols-4"
+		>
+			<div class="flex flex-col gap-y-3 border-l border-white/10 pl-6">
+				<dt class="text-base leading-6">Cracks in walls can be a sign of foundation movement</dt>
+				<dd class="order-first text-3xl font-semibold tracking-tight">Cracks in walls</dd>
+			</div>
+			<div class="flex flex-col gap-y-3 border-l border-white/10 pl-6">
+				<dt class="text-base leading-6">Bowed walls can be a sign of foundation settlement</dt>
+				<dd class="order-first text-3xl font-semibold tracking-tight">Bowed walls</dd>
+			</div>
+			<div class="flex flex-col gap-y-3 border-l border-white/10 pl-6">
+				<dt class="text-base leading-6">
+					Water damage in the basement or crawl space can be a sign of foundation cracks or leaks
+				</dt>
+				<dd class="order-first text-3xl font-semibold tracking-tight">Water damage</dd>
+			</div>
+			<div class="flex flex-col gap-y-3 border-l border-white/10 pl-6">
+				<dt class="text-base leading-6">In your concrete driveway, patio, walkway, or pool deck</dt>
+				<dd class="order-first text-3xl font-semibold tracking-tight">Cracks or settling</dd>
+			</div>
+			<div class="flex flex-col gap-y-3 border-l border-white/10 pl-6">
+				<dt class="text-base leading-6">sloping, or bouncy floors</dt>
+				<dd class="order-first text-3xl font-semibold tracking-tight">Unlevel</dd>
+			</div>
+			<div class="flex flex-col gap-y-3 border-l border-white/10 pl-6">
+				<dt class="text-base leading-6">In your home on a crawl space.</dt>
+				<dd class="order-first text-3xl font-semibold tracking-tight">High levels of humidity</dd>
+			</div>
+			<div class="flex flex-col gap-y-3 border-l border-white/10 pl-6">
+				<dt class="text-base leading-6">In your home on a crawl space</dt>
+				<dd class="order-first text-3xl font-semibold tracking-tight">Musty smell</dd>
+			</div>
+			<div class="flex flex-col gap-y-3 border-l border-white/10 pl-6">
+				<dt class="text-base leading-6">In your crawl space</dt>
+				<dd class="order-first text-3xl font-semibold tracking-tight">Visible standing water</dd>
+			</div>
+			<div class="flex flex-col gap-y-3 border-l border-white/10 pl-6">
+				<dt class="text-base leading-6">Or organic growth in your crawl space</dt>
+				<dd class="order-first text-3xl font-semibold tracking-tight">
+					Visible mold, mildew, fungus
+				</dd>
+			</div>
+		</dl>
+		<p class="text-white mx-auto mt-14 text-lg lg:text-xl">
+			Taking care of foundation problems early is key. The longer you wait, the worse the problem is
+			likely to get, which will make repairing the foundation much more expensive
+		</p>
+	</div>
 </section>
 <section class="p-8 mt-10">
 	<h2>Contact Us</h2>
