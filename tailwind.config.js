@@ -24,9 +24,9 @@ export default {
 		}
 	},
 	plugins: [
-		// require('@tailwindcss/forms')({
-		// 	strategy: 'base',
-		// 	strategy: 'class'
-		// })
+		require('@tailwindcss/forms')({
+			strategy: 'base',
+			strategy: 'class'
+		})
 	]
 };

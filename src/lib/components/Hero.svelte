@@ -3,13 +3,13 @@
 	let pScroll: number;
 </script>
 
-<svelte:head>
+<!-- <svelte:head>
 	<title>Foundation Repair Panama City, Florida</title>
 	<meta
 		name="description"
 		content="Foundation repair Panama City, Florida. We are the foundation repair experts in Panama City, Florida. Call us today for a free estimate."
 	/>
-</svelte:head>
+</svelte:head> -->
 
 <svelte:window bind:scrollY={pScroll} />
 <div class="relative w-full h-full">

@@ -1,22 +1,29 @@
 <script lang="ts">
 	import Hero from '$lib/components/Hero.svelte';
 	import ContactForm from '$lib/components/ContactForm.svelte';
-	// import InfoCard from '$lib/components/InfoCard.svelte';
+	import Seo from '$lib/components/Seo.svelte';
 </script>
+
+<Seo
+	title="Florida Foundation Experts Panama City Florida"
+	description="Florida Foundation Experts is here to help you with your foundation repair needs. Please fill out the form below and we will get back to you as soon as possible."
+/>
 
 <Hero title="Florida Foundation Repair Panama City Florida" />
 <section class="p-8 mt-10">
-	<h2 class="text-center text-2xl lg:text-4xl font-bold font-branding-sans">
+	<h2
+		class="text-center text-2xl lg:text-4xl font-bold font-branding-sans tracking-tighter text-gray-900"
+	>
 		Are you experiencing foundation problems in your Panama City area home?
 	</h2>
-	<p class="w-3/4 mx-auto mt-8 text-lg lg:text-xl">
+	<p class="w-3/4 mx-auto mt-8 text-lg leading-7 text-gray-600">
 		If so, you're not alone. Many homes throughout Northwest Florida, including Panama City Beach,
 		Destin, Santa Rosa Beach and 30-A area are built on sandy soil, which can make them susceptible
 		to foundation problems such as cracks, bowing walls, and water damage. If you're noticing any of
 		these signs, it's important to have a foundation repair expert inspect your home as soon as
 		possible
 	</p>
-	<p class="w-3/4 mx-auto mt-8 text-lg lg:text-xl">
+	<p class="w-3/4 mx-auto mt-8 text-lg leading-7 text-gray-600">
 		We created this website as a way for people to book appointments with true Florida Foundation
 		Experts. As Florida residents and top Certified Field Inspectors for a major foundation repair
 		contractor, we have the ability to diagnose very complex foundation issues and design a plan to
@@ -25,7 +32,7 @@
 		foam injections, crawl space encapsulations, concrete leveling on pool decks and driveways, and
 		more..
 	</p>
-	<p class="w-3/4 mx-auto mt-8 text-lg lg:text-xl">
+	<p class="w-3/4 mx-auto mt-8 text-lg leading-7 text-gray-600">
 		So feel free to browse all the foundation repair content and then book a free inspection. We
 		will analyze your request and match you with the best Florida Foundation Expert for your
 		specific problem and geographic location. Then your assigned Certified Field Inspector will
@@ -37,73 +44,69 @@
 </section>
 <section class="px-8 mt-10 bg-slate-50">
 	<div class="py-14">
-		<h2 class="text-center text-2xl lg:text-4xl font-bold font-branding-sans">
+		<h2
+			class="text-center text-2xl lg:text-4xl font-bold font-branding-sans tracking-tighter text-gray-900"
+		>
 			Foundation Problems in Panama City Beach, Destin and 30a Areas
 		</h2>
-		<p class="w-2/4 mx-auto py-12 text-lg lg:text-xl">
+		<p class="w-2/4 mx-auto py-12 text-lg leading-7 text-gray-600">
 			The sandy soil in Northwest Florida can make homes susceptible to foundation problems. These
 			problems can be caused by a number of factors, including:
 		</p>
 		<div class="w-3/4 mx-auto text-lg lg:text-xl">
-			<!-- <InfoCard>
-			<svelte:fragment slot="image">
-				<img
-					src="https://picsum.photos/300/200"
-					alt="foundation damage"
-					class="w-full rounded-t-lg"
-				/>
-			</svelte:fragment>
-			<svelte:fragment slot="title">
-				<h3 class="text-xl font-bold">Weather</h3>
-			</svelte:fragment>
-			<p slot="content">Heavy rains and flooding can put a lot of stress on foundations.</p>
-		</InfoCard> -->
-
 			<div class="md:grid md:grid-cols-3 gap-14">
 				<div class="info-card shadow-lg max-w-96 rounded-lg bg-white">
 					<img
-						src="https://picsum.photos/300/200"
-						alt="foundation damage"
+						src="https://ik.imagekit.io/wkftmp47jiv/florida_foundation_experts/assets/weather-house_qp3z9ShXz.jpg"
+						alt="weather damage"
 						class="w-full rounded-t-lg object-cover"
 					/>
 					<div class="p-6">
-						<h3 class="text-2xl font-bold uppercase text-center">Weather</h3>
-						<p class="mt-3">Heavy rains and flooding can put a lot of stress on foundations.</p>
+						<h3 class="text-2xl font-bold uppercase text-center tracking-tighter text-gray-900">
+							Weather
+						</h3>
+						<p class="mt-3 text-lg leading-7 text-gray-600">
+							Heavy rains and flooding can put a lot of stress on foundations.
+						</p>
 					</div>
 				</div>
 				<div class="info-card shadow-lg max-w-96 rounded-lg bg-white">
 					<img
-						src="https://picsum.photos/300/200"
-						alt="foundation damage"
+						src="https://ik.imagekit.io/wkftmp47jiv/florida_foundation_experts/assets/wall_crack_window_wH1hLzgq-.jpg"
+						alt="aged house"
 						class="w-full rounded-t-lg"
 					/>
 					<div class="p-6">
-						<h3 class="text-2xl font-bold uppercase text-center">Age</h3>
-						<p class="mt-3">Older homes are more likely to have foundation problems.</p>
+						<h3 class="text-2xl font-bold uppercase text-center text-gray-900">Age</h3>
+						<p class="mt-3 text-lg leading-7 text-gray-600">
+							Older homes are more likely to have foundation problems.
+						</p>
 					</div>
 				</div>
 				<div class="info-card shadow-lg max-w-96 rounded-lg bg-white">
 					<img
-						src="https://picsum.photos/300/200"
-						alt="foundation damage"
+						src="https://ik.imagekit.io/wkftmp47jiv/florida_foundation_experts/assets/poor-construction-house_fpFlf45lJ.jpg"
+						alt="poorly built house"
 						class="w-full rounded-t-lg"
 					/>
 					<div class="p-6">
-						<h3 class="text-2xl font-bold uppercase text-center">Poor Construction</h3>
-						<p class="mt-3">
+						<h3 class="text-2xl font-bold uppercase text-center text-gray-900">
+							Poor Construction
+						</h3>
+						<p class="mt-3 text-lg leading-7 text-gray-600">
 							Homes that were not built properly are more likely to have foundation problems.
 						</p>
 					</div>
 				</div>
 				<div class="info-card shadow-lg max-w-96 rounded-lg bg-white">
 					<img
-						src="https://picsum.photos/300/200"
-						alt="foundation damage"
+						src="https://ik.imagekit.io/wkftmp47jiv/florida_foundation_experts/assets/dirt_qJ5w3zaIk.jpg"
+						alt="dirt being held in a hand"
 						class="w-full rounded-t-lg"
 					/>
 					<div class="p-6">
-						<h3 class="text-2xl font-bold uppercase text-center">Poor Compaction</h3>
-						<p class="mt-3">
+						<h3 class="text-2xl font-bold uppercase text-center text-gray-900">Poor Compaction</h3>
+						<p class="mt-3 text-lg leading-7 text-gray-600">
 							Homes that were built on poorly compacted soil can settle over time, causing
 							foundation issues.
 						</p>
@@ -111,13 +114,13 @@
 				</div>
 				<div class="info-card shadow-lg max-w-96 rounded-lg bg-white">
 					<img
-						src="https://picsum.photos/300/200"
-						alt="foundation damage"
+						src="https://ik.imagekit.io/wkftmp47jiv/florida_foundation_experts/assets/pile-trees_UTyIpwfOZ.jpg"
+						alt="organic material underground"
 						class="w-full rounded-t-lg"
 					/>
 					<div class="p-6">
 						<h3 class="text-2xl font-bold uppercase text-center">Organic Material Underground</h3>
-						<p class="mt-3">
+						<p class="mt-3 text-lg leading-7 text-gray-600">
 							Many homes and neighborhoods were built on land that was cleared. After clearing the
 							land, the contractor may have buried organic material such as trees. Over time, the
 							organic material breaks down underground, causing the soil around it to settle -
@@ -131,7 +134,7 @@
 </section>
 <section class="bg-gradient-to-br from-gray-900 to-gray-900 bg-cover w-full relative">
 	<img
-		class="w-full h-full object-cover absolute mix-blend-overlay"
+		class="w-full h-full object-cover absolute mix-blend-overlay blur-sm"
 		src="https://ik.imagekit.io/wkftmp47jiv/florida_foundation_experts/assets/pool-house_kYghhDhTqW.jpg"
 		alt=""
 	/>
@@ -140,7 +143,7 @@
 			<h2 class="text-2xl lg:text-4xl font-bold font-branding-sans">
 				Signs of Foundation Problems
 			</h2>
-			<p class="mx-auto mt-4 text-lg lg:text-xl">
+			<p class="mx-auto mt-4 text-lg leading-7">
 				If you're noticing any of the following signs, it's possible that your foundation is
 				damaged:
 			</p>
@@ -197,6 +200,26 @@
 	</div>
 </section>
 <section class="p-8 mt-10">
-	<h2>Contact Us</h2>
-	<ContactForm />
+	<h2 class="text-2xl lg:text-4xl font-bold font-branding-sans text-center">Contact Us</h2>
+	<div class="flex justify-center px-12 mt-8 gap-8">
+		<div class="flex flex-col justify-evenly w-1/3 bg-branding-primary-700 py-4 px-8">
+			<h3 class="text-white font-bold text-2xl text-center">Let Us Take a Look</h3>
+			<p class="text-white mt-4">
+				The best way to find out exactly what your home needs is to schedule an appointment. Let the
+				Florida Foundations Experts help your home to be the best, safest place for your family for
+				years to come!
+			</p>
+			<p class="text-white flex gap-4 items-center">
+				<i class="fa-thin fa-phone text-2xl"></i>
+				<a href="tel:+18888888888" title="Call Us" class="text-xl">777.777.7777</a>
+			</p>
+			<p class="text-white flex gap-4 items-center">
+				<i class="fa-thin fa-envelope text-2xl"></i>
+				<a href="mail:henson@gmail.com" title="Email Us" class="text-xl"
+					>hello@floridafoundationexperts.com</a
+				>
+			</p>
+		</div>
+		<ContactForm />
+	</div>
 </section>
