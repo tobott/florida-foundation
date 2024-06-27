@@ -201,8 +201,8 @@
 </section>
 <section class="p-8 mt-10">
 	<h2 class="text-2xl lg:text-4xl font-bold font-branding-sans text-center">Contact Us</h2>
-	<div class="flex justify-center px-12 mt-8 gap-8">
-		<div class="flex flex-col justify-evenly w-1/3 bg-branding-primary-700 py-4 px-8">
+	<div class="flex flex-col lg:flex-row justify-center px-12 mt-8 gap-8">
+		<div class="flex flex-col justify-evenly w-full lg:w-1/3 bg-branding-primary-700 py-4 px-8">
 			<h3 class="text-white font-bold text-2xl text-center">Let Us Take a Look</h3>
 			<p class="text-white mt-4">
 				The best way to find out exactly what your home needs is to schedule an appointment. Let the
@@ -215,9 +215,7 @@
 			</p>
 			<p class="text-white flex gap-4 items-center">
 				<i class="fa-thin fa-envelope text-2xl"></i>
-				<a href="mail:henson@gmail.com" title="Email Us" class="text-xl"
-					>hello@floridafoundationexperts.com</a
-				>
+				<a href="mail:henson@gmail.com" title="Email Us" class="text-xl">email us</a>
 			</p>
 		</div>
 		<ContactForm />
