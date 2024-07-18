@@ -29,6 +29,11 @@
 					>Crawl Space Encapsulation</a
 				>
 				<a
+					href="/piling-repair"
+					class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-500 hover:text-gray-700 uppercase"
+					>Piling Repair</a
+				>
+				<a
 					href="/contact"
 					class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-500 hover:text-gray-700 uppercase"
 					>Contact Us</a
@@ -108,6 +113,11 @@
 					href="/crawl-space-encapsulation"
 					class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
 					>Crawl Space Encapsulation</a
+				>
+				<a
+					href="/piling-repair"
+					class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
+					>Piling Repair</a
 				>
 				<a
 					href="/contact"

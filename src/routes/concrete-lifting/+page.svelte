@@ -37,8 +37,11 @@
 				Get a <strong>Free Estimate</strong> Today!
 			</h2>
 			<p class="mt-6 text-lg leading-8 text-gray-300">
-				Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.
-				Elit sunt amet fugiat veniam occaecat fugiat aliqua.
+				<a
+					href="/contact"
+					class="rounded-md bg-branding-primary-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-branding-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-branding-primary-600 hover:shadow-lg uppercase"
+					>contact us</a
+				>
 			</p>
 		</div>
 	</div>
