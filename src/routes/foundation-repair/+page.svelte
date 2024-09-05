@@ -34,7 +34,7 @@
 	<div class="mx-auto max-w-7xl px-6 lg:px-8">
 		<div class="mx-auto max-w-2xl lg:mx-0">
 			<h1 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">
-				Foundation Repair<br /> 30a Florida
+				Foundation Repair<br />
 			</h1>
 			<h2 class="mt-8 text-3xl text-white sm:text-4xl">
 				Get a <strong>Free Estimate</strong> Today!

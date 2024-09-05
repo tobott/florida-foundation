@@ -13,10 +13,16 @@
 			<div class="hidden sm:ml-6 lg:flex sm:space-x-8">
 				<!-- Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" -->
 				<a
-					href="/foundation-repair-30a"
+					href="/foundation-problems"
 					class="inline-flex items-center border-b-2 border-transparent hover:border-branding-primary-500 px-1 pt-1 text-sm font-medium text-gray-900 uppercase"
 				>
-					Foundation Repair 30a
+					Foundation Problems
+				</a>
+				<a
+					href="/foundation-repair"
+					class="inline-flex items-center border-b-2 border-transparent hover:border-branding-primary-500 px-1 pt-1 text-sm font-medium text-gray-900 uppercase"
+				>
+					Foundation Repair
 				</a>
 				<a
 					href="/concrete-lifting"
